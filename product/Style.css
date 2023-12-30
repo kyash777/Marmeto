@@ -1,0 +1,278 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+   
+}
+
+
+
+.image{
+    height: 100%;
+    width: 100%;
+}
+.Choice{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.box .image{
+    display: flex;
+    flex-direction: column;
+}
+.box .partition{
+    border-bottom: 1px solid  rgb(235, 230, 230);
+    
+}
+.displayed{
+    height: 75vh;
+}
+.displayed img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.Choice img{
+    height: 100%;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.price-compare{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 230px;
+    margin-top: 10px;
+}
+
+.discount{
+    font-size: 20px;
+    color:#FA9884;
+    font-weight: 400;
+}
+
+.productPrice p {
+    font-size: 30px;
+    font-weight: 600;
+    color: #38419D;
+}
+.actualPrice{
+    font-size: 17px;
+    color: #868686;
+    text-decoration: line-through;
+    margin-bottom: 10px;
+}
+
+.choose-color p{
+    font-size: 14px;
+    color:#868686;
+    font-weight:500;
+    margin-top: 25px;
+}
+
+.color{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.Size{
+    margin-top: 20px;
+}
+
+.choose-size p{
+    color:#868686;       
+    font-size: 14px;
+}
+
+.content{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.product-vendor{
+    font-size: 14px;
+    margin-top: 10px;
+    color:#868686;
+}
+
+.ChooseSize{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 15px;
+}
+.radio-button{
+    height:35px;
+    display: flex;
+    align-items: center;            
+    justify-content: center;
+
+}
+
+.Cart button{
+    width: 100px;
+}
+.product-title{
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.color{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+.box .content .color div{
+    height: 50px;
+    width: 50px;
+}
+.box .content .Size{
+    display: flex;
+    flex-direction: column;
+}
+.ChooseSize div{
+    background-color: #EEEDED;
+    border-radius: 10px;
+    padding: 10px;
+}
+.countCart{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    width: 450px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.Quantity{
+    height: 50px;
+    border: none;
+    background-color:#EEEDED;
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.Quantity div{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: cente
+}
+
+.Cart button{
+    height: 50px;
+    width: 250px;
+    background:#38419D;
+    border-radius: 30px;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+}
+
+.Cart button i{
+    margin-right:10px;
+}
+.Quantity{
+    display: flex;
+    flex-direction: row;
+}
+.description{
+    margin-top: 30px;
+    color:#868686;
+    font-size: 17px;
+}
+
+#successMessage{
+    margin-bottom: 15px;
+    width: 450px;
+    padding: 1px;
+    border-radius: 10px;
+    background:#BBD278;
+    text-align: center;
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .box{
+        flex-direction: column;
+        width: 200vw;  
+    }
+    .displayed img{
+        width: 100%;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 200vw;
+        height: 100%;
+    }
+    .left-card{
+        margin-top: 10px;
+    }
+    .right-card{
+        margin-top: 10px;
+    }
+    .image{
+        width: 90%;
+        margin: auto;
+    }
+   
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 1000px) {
+    .box{
+        flex-direction: column;
+        width: 200vw;  
+    }
+    .displayed img{
+        width: 100%;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 200vw;
+        height: 100%;
+    }
+    .left-card{
+        margin-top: 10px;
+    }
+    .right-card{
+        margin-top: 10px;
+    }
+    .image{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+        .left-card{
+            width: 100%;
+        }
+}
+
