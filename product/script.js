@@ -111,7 +111,7 @@ function calculateDiscount(actualPrice, productPrice) {
 var actualPrice=data.product.compare_at_price;
 var productPrice=data.product.price;
 
-var discount=calculateDiscount("$4000","$40")
+var discount=calculateDiscount(actualPrice,productPrice)
 
 
 const productPriceElement = document.querySelector('.productPrice p');
