@@ -1,0 +1,79 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.box{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    margin-left: 4vw;
+    margin-right: 2vw;
+    display: flex;
+    flex-direction: row;
+}
+.box .image{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+.box .partition{
+    border-bottom: 1px solid  rgb(235, 230, 230);
+    
+}
+.box .image .displayed{
+    height: 75vh;
+    width: 40vw;
+}
+.box .image .displayed img{
+    height: 100%;
+    width: 100%;
+}
+.box .image .Choice{
+    margin-left: 4vw;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+.box .image .Choice img{
+    height: 10vh;
+    width: 5vw;
+}
+.box .content{
+    display: flex;
+    flex-direction: column;
+}
+.box .content .color{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+.box .content .color div{
+    height: 5vw;
+    width: 5vw;
+}
+.box .content .Size{
+    display: flex;
+    flex-direction: column;
+}
+.box .content .Size .ChooseSize{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vw;
+}
+.box .content .Size .ChooseSize div{
+    background-color: rgb(235, 230, 230);
+    border-radius: 10px;
+    padding: 10px;
+}
+.box .content .countCart{
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+}
+.box .content .countCart .Quantity{
+    display: flex;
+    flex-direction: row;
+}
+.box .content .description{
+    color: rgb(216, 215, 215);
+}
